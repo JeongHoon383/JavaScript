@@ -4,16 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <script src="./api/kobis_api.js"></script>
   <title>Document</title>
 </head>
 <body>
-<ul id="title">
+  <h1>Kobis 박스오피스 Fetch</h1>
+  <form>
+    <span>날짜 : </span>
+    <input id="searchDate" type="number">
+    <button id="search" type="button">검색</button> <!-- 버튼 클릭하면 재로딩 되기때문에 type button 을 사용 -->
+  </form>
 
-</ul>
-
+  <div id="kobisContent"></div>
 
 
   
-  <script src="./api/kobis_api.js"></script>
 </body>
 </html>

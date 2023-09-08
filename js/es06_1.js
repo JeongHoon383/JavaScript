@@ -11,3 +11,8 @@ function myfunction(){
   console.log(fscope);
 }
 console.log(fscope);    //에러 발생, 함수 스코프 영역을 벗어남
+
+
+
+
+

@@ -1,0 +1,7 @@
+#kobisContent{
+  /* display: none; */
+}
+
+#kobisContent.active{
+  display: block;
+}
